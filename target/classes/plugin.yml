@@ -1,0 +1,50 @@
+name: Player_Management_Plugin
+version: 0.0.1
+main: nyanneko.player.management.Main
+author: にゃん猫
+
+commands:
+  ai:
+    description: プレイヤーのAIを設定するコマンド
+  playerweather:
+    description: プレイヤーの天気を設定するコマンド
+  lookup:
+    description: プレイヤーの情報を見るコマンド
+    permission: nyanneko.player_management.commands.lookup
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.lookup] を持っていないため実行できません。
+  admin:
+    description: Adminを追加するコマンド。
+    permission: nyanneko.player_management.commands.admin
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.admin] を持っていないため実行できません。
+  hide:
+    description: プレイヤーを非表示にするコマンド。(OPなくても利用可能)
+  show:
+    description: プレイヤーを表示にするコマンド。(OPなくても利用可能)
+  normalban:
+    description: プレイヤーをBANするコマンド。
+    permission: nyanneko.player_management.commands.normalban
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.normalban] を持っていないため実行できません。
+  tempban:
+    description: プレイヤーを期限BANするコマンド。
+    permission: nyanneko.player_management.commands.tempban
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.tempban] を持っていないため実行できません。
+  kick:
+    description: プレイヤーをKickするコマンド。
+    permission: nyanneko.player_management.commands.kick
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.kick] を持っていないため実行できません。
+  normalmute:
+    description: プレイヤーをミュートするコマンド。
+    permission: nyanneko.player_management.commands.normalmute
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.normalmute] を持っていないため実行できません。
+  tempmute:
+    description: プレイヤーを期限ミュートするコマンド。
+    permission: nyanneko.player_management.commands.tempmute
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.tempmute] を持っていないため実行できません。
+  unban:
+    description: プレイヤーのBANを解除するコマンド。
+    permission: nyanneko.player_management.commands.unban
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.unban] を持っていないため実行できません。
+  unmute:
+    description: プレイヤーのミュートを解除するコマンド
+    permission: nyanneko.player_management.commands.unmute
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.unmute] を持っていないため実行できません。
