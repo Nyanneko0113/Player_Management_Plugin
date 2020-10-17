@@ -1,13 +1,21 @@
-name: Player_Management_Plugin
+name: Player_Manager_Tools
 version: 0.0.1
-main: nyanneko.player.management.Main
+main: nyanneko.player.manager.Main
 author: にゃん猫
 
 commands:
-  ai:
-    description: プレイヤーのAIを設定するコマンド
-  playerweather:
-    description: プレイヤーの天気を設定するコマンド
+  help_pmt:
+    description: プレイヤーのデータを保存するコマンド
+  saveplayerdata:
+    description: プレイヤーのデータを保存するコマンド
+    permission: nyanneko.player_management.commands.saveplayerdata
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.saveplayerdata] を持っていないため実行できません。    
+  openinv:
+    description: プレイヤーのインベントリを開くコマンド
+    permission: nyanneko.player_management.commands.openinv
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.openinv] を持っていないため実行できません。    
+  playersetting:
+    description: プレイヤーを設定するコマンド
   lookup:
     description: プレイヤーの情報を見るコマンド
     permission: nyanneko.player_management.commands.lookup
@@ -28,10 +36,18 @@ commands:
     description: プレイヤーを期限BANするコマンド。
     permission: nyanneko.player_management.commands.tempban
     permission-message: あなたはパーミッション [nyanneko.player_management.commands.tempban] を持っていないため実行できません。
+  getbanlist:
+    description: Banの情報を取得するコマンド
+    permission: nyanneko.player_management.commands.banlist
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.banlist] を持っていないため実行できません。
   kick:
     description: プレイヤーをKickするコマンド。
     permission: nyanneko.player_management.commands.kick
     permission-message: あなたはパーミッション [nyanneko.player_management.commands.kick] を持っていないため実行できません。
+  getmutelist:
+    description: ミュートの情報を取得するコマンド
+    permission: nyanneko.player_management.commands.getmutelist
+    permission-message: あなたはパーミッション [nyanneko.player_management.commands.getmutelist] を持っていないため実行できません。
   normalmute:
     description: プレイヤーをミュートするコマンド。
     permission: nyanneko.player_management.commands.normalmute

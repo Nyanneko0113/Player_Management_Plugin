@@ -1,4 +1,4 @@
-package nyanneko.player.management.commands;
+package nyanneko.player.manager.commands.player;
 
 import org.bukkit.Bukkit;
 import org.bukkit.WeatherType;
@@ -33,7 +33,9 @@ public class PlayerSettingCommand implements CommandExecutor {
 				}
 			}
 			else if (args[1].equalsIgnoreCase("permission")) {
+				if (player.hasPermission("nyanneko.commands.playersetting.permission")) {
 
+				}
 			}
 			else if (args[1].equalsIgnoreCase("xp")) {
                 if (player.hasPermission("nyanneko.commands.playersetting.xp")) {
@@ -42,7 +44,9 @@ public class PlayerSettingCommand implements CommandExecutor {
                 }
 			}
 			else if (args[1].equalsIgnoreCase("effect")) {
+                if (player.hasPermission("nyanneko.commands.playersetting.effect")) {
 
+                }
 			}
 		}
 		return true;

@@ -1,4 +1,4 @@
-package nyanneko.player.management.api;
+package nyanneko.player.manager.api;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package nyanneko.player.management.commands;
+package nyanneko.player.manager.commands.player;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

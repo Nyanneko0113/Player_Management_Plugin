@@ -1,4 +1,4 @@
-package nyanneko.player.management.commands;
+package nyanneko.player.manager.commands.player;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 
-import nyanneko.player.management.Main;
+import nyanneko.player.manager.Main;
 
 public class AdminCommand implements CommandExecutor {
 

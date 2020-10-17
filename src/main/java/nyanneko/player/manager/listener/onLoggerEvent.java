@@ -1,4 +1,4 @@
-package nyanneko.player.management.listener;
+package nyanneko.player.manager.listener;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
-import nyanneko.player.management.Main;
+import nyanneko.player.manager.Main;
 
 public class onLoggerEvent implements Listener {
 
