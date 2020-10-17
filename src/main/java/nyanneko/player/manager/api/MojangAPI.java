@@ -24,7 +24,7 @@ public class MojangAPI {
             String data = postData;
             URL url = new URL(postURL);
             HttpURLConnection uc = (HttpURLConnection)url.openConnection();
-            uc.setDoOutput(true); //生成したURL接続からOutputStreamを取得するためのフラグを立てる
+            uc.setDoOutput(true); 
             uc.setRequestMethod("POST");
             OutputStream os = uc.getOutputStream();
             os.write(data.getBytes());
